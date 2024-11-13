@@ -5,3 +5,9 @@
 
 // Escribe tu código aquí debajo:
 
+var num1 =4;
+var num2 =4;
+
+if (4 == 4){
+    alert("Los dos numeros son iguales")
+}

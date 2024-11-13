@@ -5,3 +5,4 @@
 
 // Escribe tu código aquí debajo:
 
+let edad = prompt("Por favor, incresa tu edad: ");
