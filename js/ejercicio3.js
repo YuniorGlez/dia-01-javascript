@@ -4,4 +4,9 @@
 // 2. Usa un `if` para mostrar un mensaje con alert() si `a` es mayor que `b`.
 
 // Escribe tu código aquí debajo:
+var b = 10;
+var a = 100;
 
+if (a>b){
+    alert("a es mayor que b!");
+} 

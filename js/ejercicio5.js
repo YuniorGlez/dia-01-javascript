@@ -4,4 +4,8 @@
 // 2. Usa `if` para mostrar un mensaje si los dos números son iguales con `alert()`.
 
 // Escribe tu código aquí debajo:
-
+var num1 = 3;
+var num2 = 3;
+if(num1==num2) {
+    alert("TWINSSS");
+}

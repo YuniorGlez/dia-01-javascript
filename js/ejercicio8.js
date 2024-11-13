@@ -5,4 +5,7 @@
 // 3. Si el usuario escribe algo diferente de "sí" o "no", muestra un mensaje de error con `alert()`.
 
 // Escribe tu código aquí debajo:
-
+var respuestaUsuario = prompt("Furros, sí o no?");
+if (respuestaUsuario != "sí" || respuestaUsuario != "no") {
+    alert("ERROR");
+}

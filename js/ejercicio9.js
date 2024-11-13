@@ -7,4 +7,9 @@
 // 5. No necesitas hacer nada adicional; el sistema validará si `palabra` fue comparada correctamente y el mensaje mostrado es adecuado.
 
 // Escribe tu código aquí debajo:
-
+var palabra = prompt("ingresa una palabrica");
+if (palabra == "JavaScript") {
+    alert("¡Correcto!");
+} else {
+    alert("Intenta de nuevo");
+}
