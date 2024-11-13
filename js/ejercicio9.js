@@ -8,7 +8,7 @@
 
 // Escribe tu código aquí debajo:
 
-let palabra = prompt("Ingrese una palabra:");
+var palabra = prompt("Ingrese una palabra:");
 
 if (palabra == "JavaScript"){
     alert("¡Correcto!");

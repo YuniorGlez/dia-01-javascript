@@ -5,4 +5,4 @@
 
 // Escribe tu código aquí debajo:
 
-let respuesta = confirm("¿Te gusta el chocolate?");
+var respuesta = confirm("¿Te gusta el chocolate?");
