@@ -4,4 +4,5 @@
 // 2. No necesitas mostrar nada más; el sistema validará si `edad` fue creada correctamente.
 
 // Escribe tu código aquí debajo:
+var edad = prompt("Que edad tienes mentecadoto¿???¿?¿?");
 

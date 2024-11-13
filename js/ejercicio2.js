@@ -4,4 +4,6 @@
 // 2. No necesitas mostrar nada en pantalla; el sistema validará si la variable fue creada correctamente.
 
 // Escribe tu código aquí debajo:
+var nombre = "Violeta";
 
+//mensaje de prueba
