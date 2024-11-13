@@ -5,3 +5,9 @@
 
 // Escribe tu código aquí debajo:
 
+var a = 7;
+var b = -10;
+
+if (a > b) {
+    alert("a es mayor que b");
+}
