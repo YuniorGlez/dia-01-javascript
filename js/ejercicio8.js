@@ -6,7 +6,7 @@
 
 // Escribe tu código aquí debajo:
 
-var respuestaUsuario = prompt("Escribe sí o no");
+/*var respuestaUsuario = prompt("Escribe sí o no");
 if (respuestaUsuario == "sí" && respuestaUsuario == "no"){
     alert ("ERROR: Por favor, escriba sí o no.");
-}
+}*/

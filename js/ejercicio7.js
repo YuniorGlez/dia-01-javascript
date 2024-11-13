@@ -6,8 +6,8 @@
 
 // Escribe tu código aquí debajo:
 
-var edad_usuario = prompt("Indica tu edad");
+/*var edad_usuario = prompt("Indica tu edad");
 
 if (edad_usuario > 18){
     alert("Usted es mayor de 18");
-}
+}*/

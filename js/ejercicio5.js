@@ -5,9 +5,9 @@
 
 // Escribe tu código aquí debajo:
 
-var num1 = 8;
+/*var num1 = 8;
 var num2 = 8;
 
 if (num1 == num2){
     alert("Los dos números son iguales");
-}
+}*/

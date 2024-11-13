@@ -5,6 +5,6 @@
 
 // Escribe tu código aquí debajo:
 
-var holaMundo = "¡Hola, mundo!";
+// var holaMundo = "¡Hola, mundo!";
 
-alert(holaMundo);
+// alert(holaMundo);

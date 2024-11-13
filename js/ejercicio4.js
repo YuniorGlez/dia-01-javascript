@@ -5,4 +5,4 @@
 
 // Escribe tu código aquí debajo:
 
-var edad = prompt("Indica tu edad");
+//var edad = prompt("Indica tu edad");

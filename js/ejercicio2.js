@@ -5,4 +5,4 @@
 
 // Escribe tu código aquí debajo:
 
-var nombre = "Alejandro";
+// var nombre = "Alejandro";
