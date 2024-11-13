@@ -4,3 +4,7 @@
 // 2. Usa `alert(holaMundo);` para mostrar el mensaje en pantalla.
 
 // Escribe tu código aquí debajo:
+
+var holaMundo = "¡Hola, Mundo!";
+
+alert(holaMundo);
