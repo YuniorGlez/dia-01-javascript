@@ -8,3 +8,10 @@
 
 // Escribe tu código aquí debajo:
 
+var palabra = prompt("Por favor, ingresa una palabra:");
+
+if (palabra === "JavaScript") {
+    alert("¡Correcto!");
+} else {
+    alert("Intenta de nuevo");
+}
