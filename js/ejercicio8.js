@@ -6,3 +6,9 @@
 
 // Escribe tu código aquí debajo:
 
+var respuestaUsuario = prompt ("Escribe si o no")
+var mensaje = "Error"
+if (respuestaUsuario === "si" || respuestaUsuario === "no") {}
+    else {
+        alert (mensaje);
+    }

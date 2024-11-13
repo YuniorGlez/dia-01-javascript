@@ -6,3 +6,11 @@
 
 // Escribe tu código aquí debajo:
 
+var edad_usuario = prompt ('¿Qué edad tienes')
+var mensaje = "Es mayor de edad"
+if (edad_usuario > 18) {
+    alert (mensaje);
+    }
+else {
+    alert ("Es menor de edad");
+}

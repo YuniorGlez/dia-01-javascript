@@ -4,4 +4,6 @@
 // 2. No necesitas mostrar nada más; el sistema validará si `edad` fue creada correctamente.
 
 // Escribe tu código aquí debajo:
+var edad = prompt ('Dime cuál es tu edad')
+console.log (edad)
 
