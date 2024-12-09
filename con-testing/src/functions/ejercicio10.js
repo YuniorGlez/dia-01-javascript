@@ -10,3 +10,8 @@
 
 // Escribe tu código aquí debajo:
 
+export function tamañoPalabra(texto) {
+  if (texto.length < 5) return "Corta";
+  if (texto.length >= 5 && texto.length <= 10) return "Media";
+  return "Larga";
+}

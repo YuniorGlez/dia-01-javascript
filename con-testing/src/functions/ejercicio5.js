@@ -8,3 +8,6 @@
 
 // Escribe tu código aquí debajo:
 
+export function calcularDescuento(precio, descuento) {
+  return precio - (precio * descuento / 100);
+}

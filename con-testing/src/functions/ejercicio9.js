@@ -10,3 +10,11 @@
 
 // Escribe tu código aquí debajo:
 
+export function saludoIdioma(codigo) {
+  switch (codigo) {
+  case "es": return "Hola";
+  case "en": return "Hello";
+  case "fr": return "Bonjour";
+  default: return "Idioma no soportado";
+  }
+}

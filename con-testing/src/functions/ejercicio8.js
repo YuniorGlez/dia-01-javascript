@@ -11,3 +11,12 @@
 
 // Escribe tu código aquí debajo:
 
+export function notaTexto(nota) {
+  switch (nota) {
+  case 10: return "Sobresaliente";
+  case 9: return "Excelente";
+  case 7: case 8: return "Notable";
+  case 5: case 6: return "Aprobado";
+  default: return "Suspendido";
+  }
+}

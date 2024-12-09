@@ -8,3 +8,9 @@
 // 3. Por ejemplo: clasificarEdad(15) debe retornar "Adolescente"
 
 // Escribe tu código aquí debajo:
+
+export function clasificarEdad(edad) {
+  if (edad < 12) return "Niño";
+  if (edad >= 13 && edad <= 17) return "Adolescente";
+  return "Adulto";
+}

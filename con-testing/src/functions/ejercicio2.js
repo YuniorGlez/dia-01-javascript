@@ -7,3 +7,6 @@
 
 // Escribe tu código aquí debajo:
 
+export function cuadrado(numero) {
+  return numero * numero;
+}
