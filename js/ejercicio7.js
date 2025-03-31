@@ -5,4 +5,7 @@
 // 3. No necesitas modificar nada adicional; el sistema verificará si `edad_usuario` tiene el valor correcto y es mayor a 18.
 
 // Escribe tu código aquí debajo:
-
+var edad_usuario = prompt("Introduce tu edad");
+if (edad_usuario > 18) {
+    alert("Eres mayor de edad");
+}
