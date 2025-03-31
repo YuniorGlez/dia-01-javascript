@@ -5,3 +5,9 @@
 
 // Escribe tu código aquí debajo:
 
+let num1 = 4
+let num2 = 4
+
+if (num1 == num2){
+    alert("Los números son iguales")
+}
