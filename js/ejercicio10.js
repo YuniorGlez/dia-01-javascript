@@ -7,3 +7,9 @@
 
 // Escribe tu código aquí debajo:
 
+var numero = 10;
+var doble = numero * 2;
+
+if (doble > 10){
+    alert ("El doble es mayor que 10");
+}

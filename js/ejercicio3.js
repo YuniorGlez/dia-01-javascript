@@ -5,3 +5,9 @@
 
 // Escribe tu código aquí debajo:
 
+var a = 3;
+var b = 1;
+
+if (a > b){
+    alert (Correcto);
+}

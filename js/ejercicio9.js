@@ -8,3 +8,10 @@
 
 // Escribe tu código aquí debajo:
 
+var palabra = prompt ("¿Qué significa js?");
+
+if (palabra === "JavaScript"){
+    alert ("¡Correcto!");
+} else {
+    alert ("Inténtalo de nuevo");
+}
