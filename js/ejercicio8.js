@@ -6,3 +6,7 @@
 
 // Escribe tu código aquí debajo:
 
+let respuestaUsuario = prompt("Escribe si o no")
+if (respuestaUsuario != "si" && respuestaUsuario != "no"){
+    alert("Error: Debes escribir 'sí' o 'no'.")
+}
