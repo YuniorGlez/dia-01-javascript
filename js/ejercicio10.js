@@ -7,3 +7,9 @@
 
 // Escribe tu código aquí debajo:
 
+let numero = 7
+let doble = numero*2
+if (doble >= 10){
+    alert("El doble es mayor que 10")
+}
+
