@@ -5,3 +5,4 @@
 
 // Escribe tu código aquí debajo:
 
+var nombre = "Jose Angel"; // Reemplaza "TuNombre" con tu nombre real
