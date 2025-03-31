@@ -6,3 +6,7 @@
 
 // Escribe tu código aquí debajo:
 
+var respuestaUsuario = prompt("Escribe 'sí' o 'no'"); 
+if (respuestaUsuario !== "sí" && respuestaUsuario !== "no") {
+    alert("Error: Debes escribir 'sí' o 'no'"); 
+}
