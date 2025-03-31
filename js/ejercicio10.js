@@ -7,3 +7,12 @@
 
 // Escribe tu código aquí debajo:
 
+var numero = 8;
+
+// Aquí no haría falta parsear la variable porque la siguiente línea lo tomaría directamente como número gracias a la multiplicación.
+
+var doble = numero * 2;
+
+if(doble > 10) {
+    alert("El doble es mayor que 10.");
+}

@@ -6,3 +6,10 @@
 
 // Escribe tu código aquí debajo:
 
+var edad_usuario = prompt("Dime tu edad:");
+
+edad_usuario = parseInt(edad_usuario); //Parseo la variable para asegurarme de que la comparación será entre iguales, por si acaso.
+
+if (edad_usuario > 18) {
+    alert("Eres mayor de edad.");
+}
