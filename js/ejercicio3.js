@@ -5,3 +5,9 @@
 
 // Escribe tu código aquí debajo:
 
+let a = 5
+let b = 3
+
+if (a>b){
+    alert("a es mayor que b")
+}

@@ -8,3 +8,10 @@
 
 // Escribe tu código aquí debajo:
 
+
+let palabra = prompt("Escribe una palabra")
+if (palabra == "JavaScript"){
+    alert("¡Correcto!")
+} else{
+    alert("Intenta de nuevo")
+}
