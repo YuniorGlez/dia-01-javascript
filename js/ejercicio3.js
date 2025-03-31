@@ -5,3 +5,10 @@
 
 // Escribe tu código aquí debajo:
 
+var a = 5;
+var b = 3; 
+if (a > b) {
+    alert("La variable 'a' es mayor que la variable 'b'.");
+} else {
+    alert("La variable 'a' no es mayor que la variable 'b'.");
+}

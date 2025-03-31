@@ -7,3 +7,8 @@
 
 // Escribe tu código aquí debajo:
 
+var numero = 45; // Reemplaza con el valor deseado
+var doble = numero * 2; // Calcula el doble del número
+if (doble > 10){
+    alert("El doble es mayor que 10");
+ }
