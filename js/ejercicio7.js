@@ -1,8 +1,29 @@
-// Ejercicio 7: Pide al usuario su edad y muestra un mensaje si es mayor de 18.
+// Ejercicio 7: Función Operaciones
 // Instrucciones:
-// 1. Usa `prompt()` para pedir la edad al usuario y guarda el valor en una variable `edad_usuario`.
-// 2. Usa un `if` para mostrar un mensaje con alert() si la edad es mayor de 18.
-// 3. No necesitas modificar nada adicional; el sistema verificará si `edad_usuario` tiene el valor correcto y es mayor a 18.
+// 1. Crea una función llamada `operacion` que tome tres parámetros:
+//    - num1: primer número
+//    - num2: segundo número
+//    - operador: string con el operador ('+', '-', '*', '/')
+// 2. Usa switch para realizar la operación correspondiente y retornar el resultado
+// 3. Por ejemplo: operacion(4, 2, '+') debe retornar 6
 
 // Escribe tu código aquí debajo:
 
+function operacion(num1, num2, operador) {
+    switch (operador) {
+        case '+':
+            return num1 + num2;
+        case '-':
+            return num1 - num2;
+        case '*':
+            return num1 * num2;
+        case '/':
+            if (num2 !== 0) {
+                return num1 / num2;
+            } else {
+                return "dividir por cero da infinito crack XD";
+            }
+        default:
+            return "Operador inválido";
+    }
+}

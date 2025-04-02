@@ -1,8 +1,32 @@
-// Ejercicio 8: Pide al usuario que escriba "sí" o "no". Si escribe otra cosa, muestra un mensaje de error.
+// Ejercicio 8: Función Nota a Texto
 // Instrucciones:
-// 1. Usa `prompt()` para pedirle al usuario que escriba "sí" o "no".
-// 2. Guarda la respuesta en una variable llamada `respuestaUsuario`.
-// 3. Si el usuario escribe algo diferente de "sí" o "no", muestra un mensaje de error con `alert()`.
+// 1. Crea una función llamada `notaTexto` que tome un número del 0 al 10
+// 2. Usa switch para retornar:
+//    - "Sobresaliente" si la nota es 10
+//    - "Excelente" si la nota es 9
+//    - "Notable" si la nota es 7 u 8
+//    - "Aprobado" si la nota es 5 o 6
+//    - "Suspendido" si la nota es menor que 5
+// 3. Por ejemplo: notaTexto(7) debe retornar "Notable"
 
 // Escribe tu código aquí debajo:
-
+function notaTexto(nota) {
+    switch (nota) {
+        case 10:
+            return "Sobresaliente";
+        case 9:
+            return "Excelente";
+        case 7:
+        case 8:
+            return "Notable";
+        case 5:
+        case 6:
+            return "Aprobado";
+        default:
+            if (nota <= 4) {
+                return "Suspendido";
+            } else {
+                return "del 0 al 10 crack XD";
+            }
+    }
+}
