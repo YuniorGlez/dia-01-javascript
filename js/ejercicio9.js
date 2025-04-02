@@ -10,3 +10,15 @@
 
 // Escribe tu código aquí debajo:
 
+function saludoIdioma(idioma) {
+    switch (idioma) {
+        case "es":
+            return "Hola";
+        case "en":
+            return "Hello";
+        case "fr":
+            return "Bonjour";
+        default:
+            return "Idioma no soportado";
+    }
+}
